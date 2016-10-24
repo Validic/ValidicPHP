@@ -1,0 +1,24 @@
+{
+    "name": "validic/validic",
+    "type": "library",
+    "description": "Wrapper for the Validic API",
+    "keywords": ["validic","wrapper"],
+    "homepage": "https://github.com/Validic/ValidicPHP",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Aleks Jocic",
+            "email": "aleks.jocic@validic.com",
+            "homepage": "https://validic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "6.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Validic\\": "src/Validic"
+        }
+    }
+}
