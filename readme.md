@@ -5,8 +5,24 @@ to help you get started with Validic. The Client class performs retries and
 returns the response and errors from Validic. The User class has many helper
 functions to make managing Validic users easier.
 
-This project uses GuzzleHttp. You may use Composer to handle your dependencies
-and provide an autoloader for the Validic PHP Wrapper.
+This project uses GuzzleHttp. You may use Composer to handle your dependencies.
+
+## Installation with Composer
+
+Add the Validic/Validic package to your composer.json file.
+
+```php
+{
+    "require": {
+        "validic/validic": "*"
+    }
+}
+```
+
+## Installation without Composer
+
+If you are not using composer, you must install GuzzleHTTP manually. Then copy the
+src folder of the Validic PHP wrapper and include the autoload.php file.
 
 ## Basic Client Setup
 
